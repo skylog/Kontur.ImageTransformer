@@ -1,0 +1,9 @@
+phantom:
+  address: 192.168.0.16:8080
+  ammo_type: uripost
+  load_profile:
+    load_type: rps
+    schedule: line(0,1000,90s)
+  header_http: '1.1'
+telegraf:
+  enabled: false # let's disable telegraf monitoring for this time
